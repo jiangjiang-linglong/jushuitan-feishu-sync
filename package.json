@@ -1,0 +1,16 @@
+{
+  "name": "jushuitan-feishu-sync",
+  "version": "1.0.0",
+  "description": "飞书多维表格订单 → 聚水潭手工建单（一键发货同步）",
+  "main": "jushuitan-feishu-sync.js",
+  "scripts": {
+    "start": "node jushuitan-feishu-sync.js",
+    "sync": "node jushuitan-feishu-sync.js",
+    "backfill": "MODE=backfill node jushuitan-feishu-sync.js",
+    "autofill": "MODE=autofill node jushuitan-feishu-sync.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
