@@ -1,7 +1,7 @@
 {
   "name": "jushuitan-feishu-sync",
   "version": "1.0.0",
-  "description": "飞书多维表格订单 → 聚水潭手工建单（一键发货同步）",
+  "description": "飞书多维表格订单自动同步到聚水潭建单工具 — 勾选确认发货即自动创建手工订单并回写内部单号、快递单号",
   "main": "jushuitan-feishu-sync.js",
   "scripts": {
     "start": "node jushuitan-feishu-sync.js",
@@ -9,8 +9,20 @@
     "backfill": "MODE=backfill node jushuitan-feishu-sync.js",
     "autofill": "MODE=autofill node jushuitan-feishu-sync.js"
   },
+  "keywords": [
+    "jushuitan",
+    "feishu",
+    "lark",
+    "bitable",
+    "ecommerce",
+    "order-sync",
+    "warehouse",
+    "shipping",
+    "erp"
+  ],
+  "author": "jiangjiang-linglong",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
-  },
-  "license": "MIT"
+  }
 }
